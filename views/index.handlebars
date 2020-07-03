@@ -1,0 +1,50 @@
+<h1>Eat Da Burger!</h1>
+
+{{!-- Devoured Yummy Yum Burger --}}
+<div id='Name'>
+  <h2>Yummy Yum Burgers!</h2>
+
+  <ul>
+    {{#each burgers}}
+    {{#unless devoured}}
+    {{> burgers/burger-block devoured=true}}
+    {{/unless}}
+    {{/each}}
+  </ul>
+</div>
+
+{{!-- Order Set --}}
+<div id='Set'>
+  <h2>Eat Delicious burgers!</h2>
+
+  <ul>
+    {{#each burgers}}
+    {{#if devoured}}
+    {{> burgers/burger-block devoured=fasle}}
+    {{/if}}
+    {{/each}}
+  </ul>
+</div>
+
+{{!-- Iput Burger Name & Add it to Yummy Yum Burgers --}}
+<div id='Add'>
+  <h2>Add a Burger</h2>
+
+  <form class="create-devoured">
+
+    <div class="form-group">
+      <div id='input'>
+        <label for="ca">Burger Name:</label>
+        <input type="text" id="ca" name="name">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="slee"></label><br>
+    </div>
+
+    <div id='button'>
+      <button type="submit">Submitt</button>
+    </div>
+  </form>
+</div>
