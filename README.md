@@ -1,4 +1,4 @@
-# Burger
+# Project Name --Burger--
 
 
 # Description 
@@ -7,25 +7,33 @@
 
  # How To Use 
 
- Input a burger name into the app and add it.
- Burger will be added to the "Yummy Yum Burgers!" section of the page.
- Users will select a burger that would like to Devour from the "Yummy Yum Burgers List".
- Burger will be moved to the "Eat Delicious burgers!" section of the page.
+ Users input a burger name into the app and add it. A burger will be added to the "Yummy Yum Burgers!" section of the page. Then users will select a burger that would like to Devour. When clicked on devoured it button the burger will be moved to the "Eat Delicious burgers!" section of the page.
 
 
 # Technologies
 
-* This application makes use of the following technologies:
+* In this application I used  the following technologies:
 
 1. Javascript
 2. NodeJS
 3. GitHub
 4. Heroku Cloud Hosting Platform
-5. npmJS Packages
- - expressJS
+
+5. npm install
+  - expressJS
  - mySQL
  - express-handlebars
 6. JawsDB via Heroku using mySQL
+
+
+
+# Links 
+
+https://github.com/hijaziii/Burger
+
+https://eat-da-burgerito.herokuapp.com/
+
+https://hijaziii.github.io/Personal--Portfolio/
 
 # I Have Included:
 
